@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f7f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-image: linear-gradient(black, white);
+  background-image: url(https://p-ch.jp/wp-content/uploads/2018/10/P5_hero_bokosuka_header.jpg);
+  width: 1300px;
+  height: 200px;
+  background-position: 100%;
+  text-align: center;
+}
+
+.rayer{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 2000px;
+  height: 200px;
+  background-position: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #89aa00;
+}
+
+.wrapper {
+  display: flex;              /* 横並びにする */
+  gap: 2rem;                  /* 左右の間隔 */
+  padding: 2rem;
+}
+
+.container-1 {
+  background: #ffffff;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.container {
+  background: #ffffff;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-width: 800px;
+  margin-left: 2rem;
+  margin-right: auto;
+}
+
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #891919;
+  border-radius: 0.5rem;
+}
+
+.content-area {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.task-box,
+.calendar-box {
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+  background-color: #75ded9;
+  border: 3px solid #547d79;
+  border-radius: 0.5rem;
+}
+
+.task-box p,
+.calendar-box p {
+  font-size: 1.2rem;
+}
+
